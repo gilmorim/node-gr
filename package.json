@@ -1,0 +1,24 @@
+{
+  "name": "gr-node",
+  "version": "1.0.0",
+  "description": "snmp monitor ",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilmorim/node-gr.git"
+  },
+  "keywords": [
+    "snmp",
+    "octet",
+    "monitor"
+  ],
+  "author": "Gilberto Morim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilmorim/node-gr/issues"
+  },
+  "homepage": "https://github.com/gilmorim/node-gr#readme"
+}
