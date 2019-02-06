@@ -2,9 +2,10 @@
   "name": "gr-node",
   "version": "1.0.0",
   "description": "snmp monitor ",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "start": "nodemon app"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,13 @@
   },
   "homepage": "https://github.com/gilmorim/node-gr#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "unix-timestamp": "^0.2.0"
   },
   "devDependencies": {
     "eslint": "^5.12.0",

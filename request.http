@@ -1,0 +1,20 @@
+#POST STAT
+POST http://localhost:3000/stats
+Content-Type: application/json
+
+{
+    "index": 2,
+    "macAddress": "testmac2",
+    "description": "Screams interface",
+    "octetsIn": 43,
+    "octetsOut": 7,
+    "difference": 36,
+    "previousDifference": 2,
+    "rateChange": 3
+}
+
+#GET STAT
+GET http://localhost:3000/stats/api
+
+#GET STATS BY INDEX
+GET http://localhost:3000/stats/1
